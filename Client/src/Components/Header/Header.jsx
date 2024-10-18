@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
 const Header = () => {
     return (
-        <div className='w-full bg-black text-white  flex justify-between px-8 py-4'>
+        <div className='w-full fixed top-0 bg-black text-white opacity-80  flex justify-between px-8 py-4'>
             <div>
                 <Link to="/">
                     <h1 className='text-2xl'>Merja</h1>
